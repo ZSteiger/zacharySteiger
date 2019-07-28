@@ -7,7 +7,6 @@ import Meta from './Meta';
 const theTheme = {};
 
 const Inner = styled.div`
-  max-width: 1000px;
   margin: 0 auto;
 `;
 

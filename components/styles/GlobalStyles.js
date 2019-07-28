@@ -41,7 +41,8 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     font-size: 2rem;
-    line-height: 2;
+    height: 100vh;
+    background: linear-gradient(180deg, #0D0221 0%, #241734 100%);
   }
 `;
 export default GlobalStyles;

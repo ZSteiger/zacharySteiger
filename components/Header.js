@@ -17,7 +17,7 @@ Router.onRouteChangeError = () => {
 };
 
 const StyledHeader = styled.div`
-  background: pink;
+  background: #241734;
 `;
 
 const Header = () => (
