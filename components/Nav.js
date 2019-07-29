@@ -11,13 +11,13 @@ const Nav = () => (
     <Link href="/">
       <a>
         <HomeButton />
-        <p>Home</p>
+        <p className="homeText">Home</p>
       </a>
     </Link>
     <Link href="/projects">
       <a>
         <ProjectsButton />
-        <p>Projects</p>
+        <p className="projectsText">Projects</p>
       </a>
     </Link>
     <ZS>
@@ -26,13 +26,13 @@ const Nav = () => (
     <Link href="/about">
       <a>
         <AboutButton />
-        <p>About</p>
+        <p className="aboutText">About</p>
       </a>
     </Link>
     <Link href="/contact">
       <a>
         <ContactButton />
-        <p>Contact</p>
+        <p className="contactText">Contact</p>
       </a>
     </Link>
   </StyledNav>
