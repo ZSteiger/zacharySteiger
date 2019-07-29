@@ -12,17 +12,16 @@ const StyledNav = styled.nav`
   }
   .projectsText {
     padding: 25px 0 40px 0;
-    margin: -40px 0 0 -17px;
+    margin: -45px 0 0 -17px;
   }
   .aboutText {
     margin: -50px 0 0 0;
-    padding: 40px 0 20px 24px;
+    padding: 40px 0 30px 24px;
   }
   .contactText {
     margin: -45px 0 0 0;
-    padding: 28px 10px 25px 0;
+    padding: 28px 10px 35px 0;
   }
-
   a p {
     font-family: EXEPixelPerfect;
     text-decoration-line: underline;

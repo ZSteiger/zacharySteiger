@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Bridge from '../static/bridge.svg';
-
-const HomeContainer = styled.div``;
+import { HomeContainer } from './styles/HomeStyles.js';
 
 export default class Home extends Component {
   render() {
