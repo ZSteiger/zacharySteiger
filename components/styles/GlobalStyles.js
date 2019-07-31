@@ -28,8 +28,8 @@ const GlobalStyles = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-size: 10px;
-    
   }
+  
   a, a:visited {
     text-decoration: none;
     color: inherit;
@@ -42,7 +42,6 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
     margin: 0;
     font-size: 2rem;
-    height: 100vh;
     background: linear-gradient(180deg, #0d0221 0%, #241734 100%);
   }
 `;
