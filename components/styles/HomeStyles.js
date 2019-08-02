@@ -10,7 +10,7 @@ const HomeContainer = styled.div`
   background: url('../../static/sun.svg'), url('../../static/bridge.svg');
   background-repeat: no-repeat;
   background-position: center top, bottom center;
-  background-size: 500px, contain;
+  background-size: 600px, 100%;
   .first {
     grid-area: first;
   }
@@ -29,6 +29,15 @@ const HomeContainer = styled.div`
     background: rgba(36, 23, 52, 0.51);
     border: 8px solid rgba(46, 33, 87, 0.52);
     box-shadow: inset 6px 4px 12px #540d6e;
+  }
+
+  @media (min-width: 1800px) {
+    background-size: 800px, 70%;
+  }
+  @media (max-width: 1200px) {
+    display: block;
+    margin: 0 25px;
+    background-size: 400px, 120%;
   }
 `;
 

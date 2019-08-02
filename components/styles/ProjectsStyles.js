@@ -15,13 +15,11 @@ const ProjectsContainer = styled.div`
     font-size: 3rem;
     color: #f9c80e;
     text-shadow: 0px 0px 16px #f9c80e;
-    text-align: center;
   }
   p {
     font-family: UASquare;
     font-size: 3rem;
     color: #920075;
-
     text-shadow: 0px 0px 16px #920075;
   }
 `;
@@ -34,14 +32,19 @@ const ProjectCell = styled.div`
   background: #0d0221;
   border: 8px solid rgba(46, 33, 87, 0.52);
   box-shadow: inset 0 4px 14px #540d6e;
+
   .imagePane {
     & > * {
-      max-width: 500px;
       width: 100%;
+      padding: 15px 0;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
     }
+  }
+  @media (max-width: 1200px) {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 `;
 

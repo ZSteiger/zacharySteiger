@@ -40,12 +40,15 @@ class Projects extends Component {
             <h1>Thoroughbred Network</h1>
             <p>
               Thoroughbred Network is a blog dedicated to all things
-              horse-racing. This website is still in production.
+              horse-racing. Using a React / Prisma / Apollo / GraphQL Stack,
+              users will be able to view daily news updates on horse racing.{' '}
+              <br />
+              <br />
+              This website is still in production.
             </p>
           </div>
           <div className="imagePane">
             <img src="../static/tn1.png" alt="Thoroughbred Network Example" />
-            <img src="" alt="" />
           </div>
         </ProjectCell>
       </ProjectsContainer>
