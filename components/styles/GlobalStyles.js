@@ -20,7 +20,7 @@ const GlobalStyles = createGlobalStyle`
     font-style: normal;
   }
   @font-face {
-    font-family: 'WestEngland';
+    font-family: 'west_england';
     src: url("/static/fonts/west_england.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;

@@ -32,7 +32,7 @@ const StyledNav = styled.nav`
 `;
 
 const ZS = styled.p`
-  font-family: West_england;
+  font-family: west_england;
   padding-bottom: 25px;
   cursor: default;
   font-size: 120px;
