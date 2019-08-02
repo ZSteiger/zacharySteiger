@@ -48,7 +48,7 @@ class Projects extends Component {
             </p>
           </div>
           <div className="imagePane">
-            <img src="../static/tn1.png" alt="Thoroughbred Network Example" />
+            <img src="/static/tn1.png" alt="Thoroughbred Network Example" />
           </div>
         </ProjectCell>
       </ProjectsContainer>
