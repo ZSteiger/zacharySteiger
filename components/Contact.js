@@ -20,6 +20,11 @@ const ContactContainer = styled.div`
     color: #f9c80e;
     text-shadow: 0px 0px 16px #f9c80e;
   }
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 `;
 const Links = styled.div`
   display: flex;
@@ -40,13 +45,28 @@ class Contact extends Component {
           <a href="mailto:zsteig93@gmail.com">zsteig93@gmail.com</a>
           <p>
             Otherwise, please feel free to reach out to me on the following
-            platforms →
+            platforms:
           </p>
         </div>
         <Links>
-          <a href="">LinkedIn</a>
-          <a href="">GitHub</a>
-          <a href="">@twitter</a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/zsteiger/">
+            LinkedIn
+          </a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/ZSteiger">
+            GitHub
+          </a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitter.com/zackSteiger">
+            @twitter
+          </a>
         </Links>
       </ContactContainer>
     );
