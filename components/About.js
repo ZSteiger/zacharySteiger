@@ -18,6 +18,14 @@ const AboutContainer = styled.div`
   img {
     max-width: 250px;
   }
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+    img {
+      margin: 0 auto;
+    }
+  }
 `;
 class About extends Component {
   render() {
