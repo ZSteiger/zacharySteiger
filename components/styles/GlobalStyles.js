@@ -34,6 +34,10 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   }
 
+  p {
+    font-family: UASquare;
+  }
+
   *, *:before, *:after {
     box-sizing: inherit;
   }

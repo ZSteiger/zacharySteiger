@@ -9,7 +9,6 @@ const ContactContainer = styled.div`
   margin: 20px 50px;
   padding: 50px;
   p {
-    font-family: UASquare;
     font-size: 3rem;
     color: #fd3777;
     text-shadow: 0px 0px 16px #ff3864;

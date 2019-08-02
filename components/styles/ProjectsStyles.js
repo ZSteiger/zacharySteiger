@@ -17,7 +17,6 @@ const ProjectsContainer = styled.div`
     text-shadow: 0px 0px 16px #f9c80e;
   }
   p {
-    font-family: UASquare;
     font-size: 3rem;
     color: #920075;
     text-shadow: 0px 0px 16px #920075;

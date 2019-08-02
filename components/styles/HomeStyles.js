@@ -21,7 +21,6 @@ const HomeContainer = styled.div`
     grid-area: third;
   }
   p {
-    font-family: UASquare;
     font-size: 3rem;
     color: #fd3777;
     padding: 40px;

@@ -3,6 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles';
 import Header from './Header';
 import Meta from './Meta';
+import Error from '../pages/_error.js';
 
 const theTheme = {};
 

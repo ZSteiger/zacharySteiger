@@ -9,7 +9,6 @@ const AboutContainer = styled.div`
   margin: 20px 50px;
   padding: 50px;
   p {
-    font-family: UASquare;
     font-size: 2.5rem;
     line-height: 1.5;
     color: #920075;
@@ -42,7 +41,7 @@ class About extends Component {
           <br /> <br />
           Hope to connect with you soon!
         </p>
-        <img src="/static/face.png" alt="My Face" />
+        <img src="../static/face.png" alt="My Face" />
       </AboutContainer>
     );
   }
