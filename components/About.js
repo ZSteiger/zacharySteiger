@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-
 const AboutContainer = styled.div`
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -41,7 +40,7 @@ class About extends Component {
           <br /> <br />
           Hope to connect with you soon!
         </p>
-        <img src="../static/face.png" alt="My Face" />
+        <img src="/static/face.png" alt="My Face" />
       </AboutContainer>
     );
   }
