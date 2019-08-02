@@ -24,12 +24,12 @@ class Projects extends Component {
           </div>
           <div className="imagePane">
             <img
-              src="../static/folckPhoto1.png"
+              src="/static/folckPhoto1.png"
               alt="Photo of Folck Photo Home"
             />
 
             <img
-              src="../static/folckPhoto2.png"
+              src="/static/folckPhoto2.png"
               alt="Photo of Folck Photo Gallery"
             />
           </div>

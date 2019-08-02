@@ -3,25 +3,25 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'Basis33';
-    src: url("./static/fonts/basis33.ttf") format('truetype');
+    src: url("/static/fonts/basis33.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'ExePixelPerfect';
-    src: url("./static/fonts/EXEPixelPerfect.ttf") format('truetype');
+    src: url("/static/fonts/EXEPixelPerfect.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
-    font-family: 'UASquare';
-    src: url("./static/fonts/uasquare.ttf") format('truetype');
+    font-family: 'UASquared';
+    src: url("/static/fonts/UASquared.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'WestEngland';
-    src: url("./static/fonts/west_england.ttf") format('truetype');
+    src: url("/static/fonts/west_england.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -35,7 +35,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   p {
-    font-family: UASquare;
+    font-family: UASquared;
   }
 
   *, *:before, *:after {
