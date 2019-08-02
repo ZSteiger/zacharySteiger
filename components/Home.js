@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { HomeContainer } from './styles/HomeStyles.js';
+import { HomeContainer } from './styles/HomeStyles';
 
 export default class Home extends Component {
   render() {
