@@ -40,7 +40,7 @@ class About extends Component {
           <br /> <br />
           Hope to connect with you soon!
         </p>
-        <img src="/static/face.png" alt="My Face" />
+        <img src="../static/face.png" alt="My Face" />
       </AboutContainer>
     );
   }
