@@ -1,4 +1,14 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+
+const toggleOpacity = keyframes`
+0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
+    opacity:0.99; text-shadow: 0 0 50px #D8A010,0 0 33px #70540E,0 0 6px #F9C80E;
+  }
+  19%,22.99%,32%,36.999%,45%,45.999%,50%,50.99%,59%,60.999%,69%,70.999%,86%,95.999% { 
+    opacity:0.4; text-shadow: none;
+  }
+}
+  `;
 
 const StyledNav = styled.nav`
   display: flex;
@@ -32,6 +42,7 @@ const StyledNav = styled.nav`
 `;
 
 const ZS = styled.p`
+  animation: ${toggleOpacity} 13s linear infinite;
   font-family: west_england;
   padding-bottom: 25px;
   cursor: default;
