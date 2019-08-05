@@ -32,7 +32,7 @@ class About extends Component {
         <p>
           Hey there, thanks for stumbling on my corner of the web. My name is
           Zack Steiger, and I'm based out of Louisville, KY. I've been
-          developing on my own for three years now,
+          developing on my own for three years now.
           <br />
           <br />
           When I'm not honing these skills, you can find me building playlists,
