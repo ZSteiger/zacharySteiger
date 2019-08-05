@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 
+// Flickering Animation
 const toggleOpacity = keyframes`
 0%,12%,18.999%,23%,31.999%,37%,44.999%,46%,49.999%,51%,58.999%,61%,68.999%,71%,85.999%,96%,100% {
     opacity:0.99; text-shadow: 0 0 50px #D8A010,0 0 33px #70540E,0 0 6px #F9C80E;
