@@ -8,6 +8,10 @@ const Meta = () => (
       name="description"
       content="Zachary Steiger || Web Developer, Louisville, KY."
     />
+    <meta
+      name="google-site-verification"
+      content="SOlnNGPjF6sX_Oejn-p5tmXQ-huZau0wj3ySkcAAS94"
+    />
     <link rel="shortcut icon" href="/static/favicon.png" />
     <link rel="stylesheet" type="text/css" href="/static/nprogress.css" />
     <title>Z♦S</title>
