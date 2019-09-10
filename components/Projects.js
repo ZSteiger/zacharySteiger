@@ -40,15 +40,22 @@ class Projects extends Component {
             <h1>Thoroughbred Network</h1>
             <p>
               Thoroughbred Network is a blog dedicated to all things
-              horse-racing. Using a React / Prisma / Apollo / GraphQL Stack,
-              users will be able to view daily news updates on horse racing.{' '}
+              horse-racing. Hosted on Siteground & built in Wordpress, users
+              will be able to view daily news updates on horse racing. <br />
               <br />
-              <br />
-              This website is still in production.
+              <a
+                href="https://www.thoroughbrednn.com"
+                rel="noopener noreferrer"
+                target="_blank">
+                Click here to visit Thoroughbred Network
+              </a>
             </p>
           </div>
           <div className="imagePane">
-            <img src="/static/tn1.png" alt="Thoroughbred Network Example" />
+            <img
+              src="/static/tnn-preview.png"
+              alt="Thoroughbred Network Example"
+            />
           </div>
         </ProjectCell>
       </ProjectsContainer>
