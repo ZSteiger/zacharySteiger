@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ZSteiger/zacharysteiger#readme",
   "dependencies": {
     "@svgr/webpack": "^4.3.2",
-    "acorn": "^6.2.0",
+    "acorn": "^6.4.1",
     "babel-core": "^6.26.3",
     "babel-plugin-styled-components": "^1.10.6",
     "enzyme": "^3.10.0",
